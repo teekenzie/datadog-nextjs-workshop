@@ -5,7 +5,7 @@ import { GetStaticPaths } from "next";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
 
-const MAX_STATIC_ROUTE = 1000000;
+const MAX_STATIC_ROUTE = 9000000;
 
 export const getStaticPaths = (() => {
   const staticRoutes: { params: { maximum: string } }[] = [];
